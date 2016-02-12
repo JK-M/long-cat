@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">LearningApp</string>
+    <string name="app_name">TranceFix Top25</string>
+    <string name="tf_logo">TranceFix</string>
+    <string name="top_title">TOP 25 2016</string>
+    <string name="vote">Vote</string>
+    <string name="view_charts">View Charts</string>
+    <string name="contact">Contact</string>
+    <string name="view_prizes">View Prizes</string>
+    <string name="text_vote">VOTE</string>
+    <string name="text_contact">CONTACT</string>
+    <string name="text_prizes">PRIZES</string>
+    <string name="text_charts">CHARTS</string>
 </resources>

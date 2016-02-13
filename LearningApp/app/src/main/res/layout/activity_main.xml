@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:background="@color/appBacground">
+    android:background="@color/appBackground">
 
     <ImageView
         android:layout_width="235dp"
@@ -41,7 +41,7 @@
         android:id="@+id/voteButton"
         android:src="@mipmap/vote"
         android:scaleType="fitCenter"
-        android:background="@color/appBacground"
+        android:background="@color/appBackground"
         android:clickable="true"
         android:onClick="Vote"
         android:layout_alignWithParentIfMissing="false"
@@ -56,7 +56,7 @@
         android:id="@+id/prizesButton"
         android:src="@mipmap/prizes"
         android:scaleType="fitCenter"
-        android:background="@color/appBacground"
+        android:background="@color/appBackground"
         android:clickable="true"
         android:onClick="viewPrizes"
         android:contentDescription="@string/view_prizes"
@@ -70,7 +70,7 @@
         android:id="@+id/contactButton"
         android:src="@mipmap/contact"
         android:scaleType="fitCenter"
-        android:background="@color/appBacground"
+        android:background="@color/appBackground"
         android:clickable="true"
         android:layout_alignTop="@+id/prizesButton"
         android:layout_centerHorizontal="true"
@@ -84,7 +84,7 @@
         android:id="@+id/chartsButton"
         android:scaleType="fitCenter"
         android:src="@mipmap/monthly"
-        android:background="@color/appBacground"
+        android:background="@color/appBackground"
         android:clickable="true"
         android:layout_alignTop="@+id/prizesButton"
         android:layout_toRightOf="@+id/voteButton"

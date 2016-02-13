@@ -3,7 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="appBacground">#242525</color>
+    <color name="appBackground">#242525</color>
     <color name="textBrickRed">#B74C0E</color>
     <color name="textBlue">#6BA7D5</color>
 </resources>

@@ -1,5 +1,8 @@
 <resources>
+
     <string name="app_name">TranceFix Top25</string>
+
+    <!-- Main screen -->
     <string name="tf_logo">TranceFix</string>
     <string name="top_title">TOP 25 2016</string>
     <string name="vote">Vote</string>
@@ -10,4 +13,10 @@
     <string name="text_contact">CONTACT</string>
     <string name="text_prizes">PRIZES</string>
     <string name="text_charts">CHARTS</string>
+
+    <!-- Login screen (before voting) -->
+    <string name="vote_info_text">In order to vote, you must provide your TranceFix username. Login or register.</string>
+    <string name="login_button_label">Continue</string>
+    <string name="register_button_label">Register</string>
+    <string name="username_field_hint">My TranceFix username</string>
 </resources>

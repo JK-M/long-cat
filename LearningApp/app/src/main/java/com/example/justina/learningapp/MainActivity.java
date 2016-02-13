@@ -14,23 +14,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Vote(View view){
-        Intent intent = new Intent(this, Vote.class);
-        startActivity(intent);
+        Intent voteIntent = new Intent(this, Login.class);
+        startActivity(voteIntent);
     }
 
     public void viewMonthlyCharts(View view){
-        Intent intent = new Intent(this, ViewCharts.class);
-        startActivity(intent);
+        Intent viewChartsIntent = new Intent(this, ViewCharts.class);
+        startActivity(viewChartsIntent);
     }
 
     public void getHelp(View view){
-        Intent intent = new Intent(this, Contact.class);
-        startActivity(intent);
+        Intent getHelpIntent = new Intent(this, Contact.class);
+        startActivity(getHelpIntent);
     }
 
     public void viewPrizes(View view){
-        Intent intent = new Intent(this, ViewPrizes.class);
-        startActivity(intent);
+        Intent viewPrizesIntent = new Intent(this, ViewPrizes.class);
+        startActivity(viewPrizesIntent);
     }
 
 }

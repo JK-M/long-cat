@@ -1,7 +1,9 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/textBrickRed">
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/textBrickRed"
+    android:layout_below="@+id/month_fragment">
 
     <TextView
         android:id="@+id/month_chart"
@@ -9,4 +11,4 @@
         android:layout_height="match_parent"
         android:text="This is TOP10 of the month fragment" />
 
-</FrameLayout>
+</RelativeLayout>

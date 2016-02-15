@@ -19,4 +19,7 @@
     <string name="login_button_label">Continue</string>
     <string name="register_button_label">Register</string>
     <string name="username_field_hint">My TranceFix username</string>
+
+    <!-- Monthly charts screen -->
+    <string name="top10_header">TOP10 chart fragment</string>
 </resources>

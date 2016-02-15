@@ -2,13 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
-    android:background="@color/textBrickRed"
     android:layout_below="@+id/month_fragment">
 
     <TextView
         android:id="@+id/month_chart"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="This is TOP10 of the month fragment" />
+        android:text="@string/top10_header"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/textBlue" />
 
 </RelativeLayout>

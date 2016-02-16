@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Monthly Charts"
-        android:id="@+id/textView2"
+        android:id="@+id/chartActivityHeader"
         android:textColor="@color/textBrickRed"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:name="com.example.justina.learningapp.MonthListFragment"
         android:id="@+id/month_fragment"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/chartActivityHeader"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"

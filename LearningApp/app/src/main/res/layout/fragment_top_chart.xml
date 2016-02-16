@@ -7,10 +7,19 @@
     <TextView
         android:id="@+id/month_chart"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/top10_header"
-        android:layout_margin="30dp"
         android:textAlignment="center"
-        android:textColor="@color/textBlue" />
+        android:textColor="@color/textBlue"
+        android:layout_margin="10dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/topTenList"
+        android:layout_below="@+id/month_chart"
+        android:layout_alignLeft="@+id/month_chart"
+        android:layout_alignStart="@+id/month_chart"
+        android:layout_marginTop="10dp" />
 
 </RelativeLayout>

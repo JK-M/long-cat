@@ -21,5 +21,59 @@
     <string name="username_field_hint">My TranceFix username</string>
 
     <!-- Monthly charts screen -->
-    <string name="top10_header">TOP10 chart fragment</string>
+    <string name="top10_header">Click the month to view TOP10 chart</string>
+
+    <string-array name="top10_jan">
+        <item>Airwave - Gaijin</item>
+        <item>Eco &amp; Brooke Forman - Liberation</item>
+        <item>Craig Connelly &amp; Cate Kanell - Shipwreck</item>
+        <item>John 00 Fleming - Tik Tok (Part 2)</item>
+        <item>Matt Bowdidge - Second Sun</item>
+        <item>Paul Miller - I Haven\'t Forgotten</item>
+        <item>Suncatcher - It\'s Too Late</item>
+        <item>DJ Misjah &amp; DJ Tim - Access (John Askew Remix)</item>
+        <item>John 00 Fleming - Tik Tok (Part 1)</item>
+        <item>LTN feat. Arielle Maren - Let Me Go</item>
+    </string-array>
+
+    <string-array name="top10_feb">
+        <item>Rising Star Feat. Betsie Larkin - Safe Inside You</item>
+        <item>Simon Bostock - Do You Know</item>
+        <item>Thomas Datt - Prana Flow</item>
+        <item>Alex di Stefano - I\'ve Got The Power</item>
+        <item>Dan Stone - Shiki</item>
+        <item>Suncatcher - Transylvania Cowgirl</item>
+        <item>Bloodhound Gang - Dimes (Sean Tyas Remix)</item>
+        <item>Simon Templar Vs. The Digital Blonde - The Wasteland (Part 2)</item>
+        <item>Artur - Rays (Solarstone Retouch)</item>
+        <item>Liam Wilson - Family</item>
+    </string-array>
+
+    <string-array name="top10_mar">
+        <item>Dimension - Origami</item>
+        <item>Will Atkinson - Numb The Pain</item>
+        <item>Darren Porter - Cause &amp; Effect</item>
+        <item>Mat Zo - Lucky Strike (Amir Hussain Bootleg.)</item>
+        <item>Standerwick &amp; Philippe El Sisi feat. Ana Criado - Magic Light</item>
+        <item>Easton feat. Roxanne Emery - Healing Rain (Bryan Kearney Remix)</item>
+        <item>Fred Baker - Rebirth (Adam Ellis Remix)</item>
+        <item>Rex Mundi - Garden</item>
+        <item>Simon Bostock - Suraya</item>
+        <item>Simon Patterson feat. Matt Adey - Time Stood Still</item>
+    </string-array>
+
+    <string-array name="top10_apr">
+        <item>Photographer Feat. Susana - Find A Way</item>
+        <item>Winkee - Assassins</item>
+        <item>Dan Stone - Topaz</item>
+        <item>John 00 Fleming - The Imperial Echo Of Devastation</item>
+        <item>Vini Vici - The Tribe</item>
+        <item>Amir Hussain - To The Lost</item>
+        <item>Kaimo K - Mayhem</item>
+        <item>Sam Jones &amp; Will Rees - Oversight</item>
+        <item>Alex Di Stefano - Escape From The Past (Fred Baker Remix)</item>
+        <item>Allen Watts - Gravity</item>
+    </string-array>
+
+
 </resources>

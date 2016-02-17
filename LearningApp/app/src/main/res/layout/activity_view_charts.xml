@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:id="@+id/chart_activity_layout"
-    tools:context="com.example.justina.learningapp.ViewCharts">
+    tools:context=".ui.activity.ViewChartsActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:name="com.example.justina.learningapp.MonthListFragment"
+        android:name="com.example.justina.learningapp.ui.fragment.MonthListFragment"
         android:id="@+id/month_fragment"
         android:layout_below="@+id/chartActivityHeader"
         android:layout_alignParentLeft="true"

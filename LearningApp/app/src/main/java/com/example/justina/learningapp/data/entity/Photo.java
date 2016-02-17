@@ -1,11 +1,11 @@
-package com.example.justina.learningapp;
+package com.example.justina.learningapp.data.entity;
 
 public class Photo {
 
     private int resID;
     private String imgCaption;
 
-    Photo (int resourceID, String captionText){
+    public Photo (int resourceID, String captionText){
         resID = resourceID;
         imgCaption = captionText;
     }

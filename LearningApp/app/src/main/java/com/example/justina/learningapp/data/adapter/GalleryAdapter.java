@@ -1,4 +1,4 @@
-package com.example.justina.learningapp;
+package com.example.justina.learningapp.data.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,6 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.justina.learningapp.R;
+import com.example.justina.learningapp.data.entity.Photo;
 
 public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.CustViewHolder> {
 

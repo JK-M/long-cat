@@ -1,4 +1,4 @@
-package com.example.justina.learningapp;
+package com.example.justina.learningapp.ui.activity;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -11,10 +11,15 @@ import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.example.justina.learningapp.data.adapter.ImageAdapter;
+import com.example.justina.learningapp.R;
+import com.example.justina.learningapp.ui.fragment.TopChartFragment;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class ViewCharts extends AppCompatActivity {
+public class ViewChartsActivity extends AppCompatActivity {
 
     public Map<Integer, String> months;{
         months = new HashMap<>();
@@ -42,7 +47,7 @@ public class ViewCharts extends AppCompatActivity {
         gridview.setAdapter(new ImageAdapter(this));
 
         // Second fragment
-        TopChart chartFragment = new TopChart();
+        TopChartFragment chartFragment = new TopChartFragment();
         FragmentManager fManager = getFragmentManager();
         FragmentTransaction fTransaction = fManager.beginTransaction();
         fTransaction.add(R.id.chart_activity_layout,chartFragment,"chartFragment");

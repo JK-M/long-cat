@@ -1,11 +1,15 @@
-package com.example.justina.learningapp;
+package com.example.justina.learningapp.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-public class ViewPrizes extends AppCompatActivity {
+import com.example.justina.learningapp.data.adapter.GalleryAdapter;
+import com.example.justina.learningapp.data.entity.Photo;
+import com.example.justina.learningapp.R;
+
+public class ViewPrizesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

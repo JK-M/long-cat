@@ -1,9 +1,11 @@
-package com.example.justina.learningapp;
+package com.example.justina.learningapp.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Contact extends AppCompatActivity {
+import com.example.justina.learningapp.R;
+
+public class ContactActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

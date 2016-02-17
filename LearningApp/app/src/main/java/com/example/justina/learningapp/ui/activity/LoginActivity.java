@@ -1,4 +1,4 @@
-package com.example.justina.learningapp;
+package com.example.justina.learningapp.ui.activity;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -6,7 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Login extends AppCompatActivity {
+import com.example.justina.learningapp.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

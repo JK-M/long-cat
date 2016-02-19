@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
-    android:layout_below="@+id/month_fragment">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
 
     <TextView
-        android:id="@+id/month_chart"
+        android:id="@+id/top_chart_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
         android:text="@string/top10_header"
-        android:textAlignment="center"
-        android:textColor="@color/textBlue"
-        android:layout_margin="10dp" />
+        android:textColor="@color/textBlue"/>
 
     <ListView
+        android:id="@+id/top_chart_list"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/topTenList"
-        android:layout_below="@+id/month_chart"
-        android:layout_alignLeft="@+id/month_chart"
-        android:layout_alignStart="@+id/month_chart"
-        android:layout_marginTop="10dp" />
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"/>
 
-</RelativeLayout>
+</LinearLayout>

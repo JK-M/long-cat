@@ -5,7 +5,7 @@ public class Photo {
     private int resID;
     private String imgCaption;
 
-    public Photo (int resourceID, String captionText){
+    public Photo(int resourceID, String captionText) {
         resID = resourceID;
         imgCaption = captionText;
     }
@@ -14,15 +14,11 @@ public class Photo {
         return resID;
     }
 
-    public String getCaptionText() {
-        return imgCaption;
-    }
-
     public void setResourceID(int resourceID) {
         this.resID = resourceID;
     }
 
-    public void setCaptionText(String captionText) {
-        this.imgCaption = captionText;
+    public String getCaptionText() {
+        return imgCaption;
     }
 }

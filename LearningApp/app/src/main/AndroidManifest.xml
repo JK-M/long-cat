@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.activity.LoginActivity" />
+        <activity android:name=".ui.activity.VoteActivity" />
         <activity android:name=".ui.activity.ContactActivity" />
         <activity android:name=".ui.activity.ViewChartsActivity" />
         <activity android:name=".ui.activity.ViewPrizesActivity" />

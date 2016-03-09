@@ -35,12 +35,12 @@
         android:inputType="text"
         android:textAlignment="center"
         android:textColor="@color/colorTextBlue"
-        android:textColorHint="@color/colorTextBlue"/>
+        android:textColorHint="@color/colorHint"/>
 
     <Button
         android:id="@+id/login"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
@@ -50,8 +50,8 @@
 
     <Button
         android:id="@+id/register"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/login"

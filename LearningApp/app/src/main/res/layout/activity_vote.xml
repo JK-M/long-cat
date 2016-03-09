@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstTitle"
+        android:text="@string/first_fav_label"
+        android:textColor="@color/colorTextBrickRed"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/favourite1"
+        android:hint="@string/track_format"
+        android:textColor="@color/colorTextBlue"
+        android:textColorHint="@color/colorHint"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondTitle"
+        android:text="@string/second_fav_label"
+        android:textColor="@color/colorTextBrickRed" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/favourite2"
+        android:hint="@string/track_format"
+        android:textColor="@color/colorTextBlue"
+        android:textColorHint="@color/colorHint"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdTitle"
+        android:text="@string/third_fav_label"
+        android:textColor="@color/colorTextBrickRed" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/favourite3"
+        android:hint="@string/track_format"
+        android:textColor="@color/colorTextBlue"
+        android:textColorHint="@color/colorHint"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourthTitle"
+        android:text="@string/fourth_fav_label"
+        android:textColor="@color/colorTextBrickRed" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/favourite4"
+        android:hint="@string/track_format"
+        android:textColor="@color/colorTextBlue"
+        android:textColorHint="@color/colorHint"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fithTitle"
+        android:text="@string/fifth_fav_label"
+        android:textColor="@color/colorTextBrickRed" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/favourite5"
+        android:hint="@string/track_format"
+        android:textColor="@color/colorTextBlue"
+        android:textColorHint="@color/colorHint"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:id="@+id/button_save"
+        android:text="Save"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:id="@+id/button_submit"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"  />
+</LinearLayout>

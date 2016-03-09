@@ -20,6 +20,14 @@
     <string name="register_button_label">Register</string>
     <string name="username_field_hint">My TranceFix username</string>
 
+    <!-- Vote screen -->
+    <string name="first_fav_label">1st favourite:</string>
+    <string name="second_fav_label">2nd favourite:</string>
+    <string name="third_fav_label">3rd favourite:</string>
+    <string name="fourth_fav_label">4th favourite:</string>
+    <string name="fifth_fav_label">5th favourite:</string>
+    <string name="track_format">Artist - Track Title (Mix / Remix)</string>
+
     <!-- Monthly charts screen -->
     <string name="charts_header">Monthly Charts</string>
     <string name="top10_header">Click the month to view TOP10 chart</string>
@@ -81,6 +89,5 @@
 
     <!-- Contact screen -->
     <string name="contact_header">Contact Form</string>
-
 
 </resources>

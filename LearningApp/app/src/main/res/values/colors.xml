@@ -6,4 +6,5 @@
     <color name="colorAppBackground">#242525</color>
     <color name="colorTextBrickRed">#B74C0E</color>
     <color name="colorTextBlue">#6BA7D5</color>
+    <color name="colorHint">#781b0c0c</color>
 </resources>

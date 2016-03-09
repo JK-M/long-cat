@@ -15,6 +15,16 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+        // Opening Vote screen on Login button click
+        findViewById(R.id.login).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent loginIntent = new Intent(LoginActivity.this, VoteActivity.class);
+                startActivity(loginIntent);
+            }
+        });
+
         // Opening online registration form on Register button click
         findViewById(R.id.register).setOnClickListener(new View.OnClickListener() {
             @Override

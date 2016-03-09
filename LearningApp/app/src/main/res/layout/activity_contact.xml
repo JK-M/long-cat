@@ -10,11 +10,9 @@
     tools:context=".ui.activity.ContactActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Contact Form"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true" />
+        android:text="@string/contact_header"
+        android:id="@+id/textView" />
 </RelativeLayout>

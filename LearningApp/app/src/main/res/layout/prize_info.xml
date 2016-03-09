@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/prizeCaption"
         android:textAlignment="center"
-        android:textColor="@color/textBrickRed" />
+        android:textColor="@color/colorTextBrickRed" />
 
     <ImageView
         android:layout_width="match_parent"

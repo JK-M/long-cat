@@ -5,8 +5,8 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/textBrickRed</item>
-        <item name="android:background">@color/appBackground</item>
+        <item name="colorAccent">@color/colorTextBrickRed</item>
+        <item name="android:background">@color/colorAppBackground</item>
     </style>
 
 </resources>

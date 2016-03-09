@@ -21,7 +21,11 @@
     <string name="username_field_hint">My TranceFix username</string>
 
     <!-- Monthly charts screen -->
+    <string name="charts_header">Monthly Charts</string>
     <string name="top10_header">Click the month to view TOP10 chart</string>
+
+    <!-- Prizes screen -->
+    <string name="prize_header">Prizes</string>
 
     <string-array name="top10_jan">
         <item>Airwave - Gaijin</item>
@@ -74,6 +78,9 @@
         <item>Alex Di Stefano - Escape From The Past (Fred Baker Remix)</item>
         <item>Allen Watts - Gravity</item>
     </string-array>
+
+    <!-- Contact screen -->
+    <string name="contact_header">Contact Form</string>
 
 
 </resources>

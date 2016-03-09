@@ -13,9 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Monthly Charts"
+        android:text="@string/charts_header"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/textBrickRed"/>
+        android:textColor="@color/colorTextBrickRed"/>
 
     <FrameLayout
         android:id="@+id/view_charts_month_list_holder"

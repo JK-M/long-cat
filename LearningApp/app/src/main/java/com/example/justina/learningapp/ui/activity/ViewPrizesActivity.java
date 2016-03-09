@@ -20,15 +20,15 @@ public class ViewPrizesActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
 
         Photo photos[] = {
-                new Photo(R.drawable.pr__kearnage, "Bryan Kearney - This is Kearnage Vol 1"),
-                new Photo(R.drawable.pr__k_and_a, "Kyau & Albert - Distant Lights"),
-                new Photo(R.drawable.pr__oliver, "Oliver Englafjord - Myrki Heima"),
-                new Photo(R.drawable.pr__orkidea, "Orkidea - Harmonia"),
-                new Photo(R.drawable.pr__ram, "RAM - Forever Love"),
-                new Photo(R.drawable.pr__ronski, "Ronski Speed - New Breed"),
-                new Photo(R.drawable.pr__sneijder, "Sneijder - Everything Changes"),
-                new Photo(R.drawable.pr__s_and_t, "Stoneface & Terminal - Be Different"),
-                new Photo(R.drawable.pr__wstlndr, "WSTLNDR - Atmostopia")
+                new Photo(R.drawable.prize_kearnage, "Bryan Kearney - This is Kearnage Vol 1"),
+                new Photo(R.drawable.prize_k_and_a, "Kyau & Albert - Distant Lights"),
+                new Photo(R.drawable.prize_oliver, "Oliver Englafjord - Myrki Heima"),
+                new Photo(R.drawable.prize_orkidea, "Orkidea - Harmonia"),
+                new Photo(R.drawable.prize_ram, "RAM - Forever Love"),
+                new Photo(R.drawable.prize_ronski, "Ronski Speed - New Breed"),
+                new Photo(R.drawable.prize_sneijder, "Sneijder - Everything Changes"),
+                new Photo(R.drawable.prize_s_and_t, "Stoneface & Terminal - Be Different"),
+                new Photo(R.drawable.prize_wstlndr, "WSTLNDR - Atmostopia")
         };
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

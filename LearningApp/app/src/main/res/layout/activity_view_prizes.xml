@@ -13,11 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Prizes"
+        android:text="@string/prize_header"
         android:id="@+id/prizesActivityHeader"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/textBrickRed" />
+        android:textColor="@color/colorTextBrickRed" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"

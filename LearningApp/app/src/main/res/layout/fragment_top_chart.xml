@@ -11,7 +11,7 @@
         android:layout_margin="10dp"
         android:gravity="center_horizontal"
         android:text="@string/top10_header"
-        android:textColor="@color/textBlue"/>
+        android:textColor="@color/colorTextBlue"/>
 
     <ListView
         android:id="@+id/top_chart_list"

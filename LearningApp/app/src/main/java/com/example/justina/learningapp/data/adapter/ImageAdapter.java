@@ -48,9 +48,9 @@ public class ImageAdapter extends BaseAdapter {
 
     // references to images
     private Integer[] mThumbIds = {
-            R.drawable.month_1, R.drawable.month_2, R.drawable.month_3,
-            R.drawable.month_4, R.drawable.month_5, R.drawable.month_6,
-            R.drawable.month_7, R.drawable.month_8, R.drawable.month_9,
+            R.drawable.month_01, R.drawable.month_02, R.drawable.month_03,
+            R.drawable.month_04, R.drawable.month_05, R.drawable.month_06,
+            R.drawable.month_07, R.drawable.month_08, R.drawable.month_09,
             R.drawable.month_10, R.drawable.month_11, R.drawable.month_12
     };
 }

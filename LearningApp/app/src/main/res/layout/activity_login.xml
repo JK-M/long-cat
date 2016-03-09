@@ -19,7 +19,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/vote_info_text"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/textBrickRed"/>
+        android:textColor="@color/colorTextBrickRed"/>
 
     <EditText
         android:id="@+id/enterUsername"
@@ -34,8 +34,8 @@
         android:hint="@string/username_field_hint"
         android:inputType="text"
         android:textAlignment="center"
-        android:textColor="@color/textBlue"
-        android:textColorHint="@color/textBlue"/>
+        android:textColor="@color/colorTextBlue"
+        android:textColorHint="@color/colorTextBlue"/>
 
     <Button
         android:id="@+id/login"

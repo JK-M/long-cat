@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.justina.learningapp.R;
 import com.example.justina.learningapp.data.entity.Photo;
 
@@ -29,7 +30,18 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.CustView
     @Override
     public void onBindViewHolder(CustViewHolder viewHolder, int position) {
         viewHolder.captionText.setText(images[position].getCaptionText());
-        viewHolder.prizeImage.setImageResource(images[position].getResourceID());
+
+        // Regular image loading using resources
+        //viewHolder.prizeImage.setImageResource(images[position].getResourceID());
+
+        // Image loading using Glide
+        Glide
+                .with(viewHolder.itemView.getContext())
+                .load(images[position].getImgSource())
+                .placeholder(R.drawable.tf_logo_main)
+                .centerCrop()
+                .crossFade()
+                .into(viewHolder.prizeImage);
     }
 
     public static class CustViewHolder extends RecyclerView.ViewHolder {

@@ -19,6 +19,8 @@ public class ViewPrizesActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
 
+        /*
+        // Regular image loading using resources
         Photo photos[] = {
                 new Photo(R.drawable.prize_kearnage, "Bryan Kearney - This is Kearnage Vol 1"),
                 new Photo(R.drawable.prize_k_and_a, "Kyau & Albert - Distant Lights"),
@@ -29,6 +31,20 @@ public class ViewPrizesActivity extends AppCompatActivity {
                 new Photo(R.drawable.prize_sneijder, "Sneijder - Everything Changes"),
                 new Photo(R.drawable.prize_s_and_t, "Stoneface & Terminal - Be Different"),
                 new Photo(R.drawable.prize_wstlndr, "WSTLNDR - Atmostopia")
+        };
+        */
+
+        // Image loading using Glide
+        Photo photos[] = {
+                new Photo("http://i.imgur.com/72N5KHX.jpg", "Bryan Kearney - This is Kearnage Vol 1"),
+                new Photo("http://i.imgur.com/tAScaXZ.jpg", "Kyau & Albert - Distant Lights"),
+                new Photo("http://i.imgur.com/c441ZMS.jpg", "Oliver Englafjord - Myrki Heima"),
+                new Photo("http://i.imgur.com/LZ5JHwQ.jpg", "Orkidea - Harmonia"),
+                new Photo("http://i.imgur.com/zeMhAvl.jpg", "RAM - Forever Love"),
+                new Photo("http://i.imgur.com/5sZimVJ.jpg", "Ronski Speed - New Breed"),
+                new Photo("http://i.imgur.com/W6wceQV.jpg", "Sneijder - Everything Changes"),
+                new Photo("http://i.imgur.com/QDgw3Gv.jpg", "Stoneface & Terminal - Be Different"),
+                new Photo("http://i.imgur.com/78ntxEz.jpg", "WSTLNDR - Atmostopia")
         };
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

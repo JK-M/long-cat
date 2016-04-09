@@ -1,4 +1,4 @@
-package com.example.justina.learningapp.data;
+package com.example.justina.learningapp.data.db;
 
 
 import android.content.ContentValues;

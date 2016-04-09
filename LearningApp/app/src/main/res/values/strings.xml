@@ -15,10 +15,12 @@
     <string name="text_charts">CHARTS</string>
 
     <!-- Login screen (before voting) -->
-    <string name="vote_info_text">In order to vote, you must provide your TranceFix username. Login or register.</string>
+    <string name="vote_info_text">In order to vote, you must provide your TranceFix username and password. Login or register.</string>
     <string name="login_button_label">Continue</string>
     <string name="register_button_label">Register</string>
     <string name="username_field_hint">My TranceFix username</string>
+    <string name="password_field_hint">My password</string>
+    <string name="remember_info">Remember my details"</string>
 
     <!-- Vote screen -->
     <string name="first_fav_label">1st favourite:</string>
@@ -27,6 +29,9 @@
     <string name="fourth_fav_label">4th favourite:</string>
     <string name="fifth_fav_label">5th favourite:</string>
     <string name="track_format">Artist - Track Title (Mix / Remix)</string>
+    <string name="button_save_label">Save</string>
+    <string name="button_modify_label">Modify</string>
+    <string name="button_submit_label">Submit</string>
 
     <!-- Monthly charts screen -->
     <string name="charts_header">Monthly Charts</string>

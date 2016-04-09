@@ -85,20 +85,40 @@
         android:id="@+id/favourite5"
         android:hint="@string/track_format"
         android:textColor="@color/colorTextBlue"
-        android:textColorHint="@color/colorHint"
-        android:layout_marginBottom="25dp"/>
+        android:textColorHint="@color/colorHint"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:numColumns="2"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/button_save"
+            android:text="@string/button_save_label"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp" />
+
+        <Button
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:id="@+id/button_modify"
+            android:text="@string/button_modify_label"
+            android:layout_gravity="right"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp" />
+    </FrameLayout>
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:id="@+id/button_save"
-        android:text="Save"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        android:layout_width="@dimen/button_width"
+        android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"
         android:id="@+id/button_submit"
-        android:text="Submit"
-        android:layout_gravity="center_horizontal"  />
+        android:text="@string/button_submit_label"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
 </LinearLayout>

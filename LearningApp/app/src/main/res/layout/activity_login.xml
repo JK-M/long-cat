@@ -30,12 +30,36 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/voteInfo"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="40dp"
         android:hint="@string/username_field_hint"
         android:inputType="text"
         android:textAlignment="center"
         android:textColor="@color/colorTextBlue"
         android:textColorHint="@color/colorHint"/>
+
+    <EditText
+        android:id="@+id/enterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/enterUsername"
+        android:hint="@string/password_field_hint"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBlue"
+        android:textColorHint="@color/colorHint" />
+
+    <CheckBox
+        android:id="@+id/rememberLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_info"
+        android:layout_below="@+id/enterPassword"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorTextBrickRed" />
 
     <Button
         android:id="@+id/login"
@@ -43,7 +67,8 @@
         android:layout_height="@dimen/button_height"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/rememberLogin"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="38dp"
         android:layout_marginStart="38dp"
         android:text="@string/login_button_label"/>
@@ -58,4 +83,5 @@
         android:layout_marginEnd="38dp"
         android:layout_marginRight="38dp"
         android:text="@string/register_button_label"/>
+
 </RelativeLayout>

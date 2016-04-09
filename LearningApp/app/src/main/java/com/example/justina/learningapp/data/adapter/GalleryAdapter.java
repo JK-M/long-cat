@@ -39,8 +39,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.CustView
                 .with(viewHolder.itemView.getContext())
                 .load(images[position].getImgSource())
                 .placeholder(R.drawable.tf_logo_main)
-                .centerCrop()
-                .crossFade()
+                   .crossFade()
                 .into(viewHolder.prizeImage);
     }
 

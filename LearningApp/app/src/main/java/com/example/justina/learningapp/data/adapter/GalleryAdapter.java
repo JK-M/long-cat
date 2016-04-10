@@ -9,14 +9,18 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.justina.learningapp.R;
-import com.example.justina.learningapp.data.entity.Photo;
+import com.example.justina.learningapp.data.entity.Prize;
+
+import java.util.List;
+import io.realm.RealmResults;
+
 
 public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.CustViewHolder> {
 
-    private Photo[] images;
+    private List<Prize> prizes;
 
-    public GalleryAdapter(Photo[] photos) {
-        this.images = photos;
+    public GalleryAdapter(RealmResults<Prize> allPrizes) {
+        this.prizes = allPrizes;
     }
 
     @Override
@@ -29,15 +33,17 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.CustView
 
     @Override
     public void onBindViewHolder(CustViewHolder viewHolder, int position) {
-        viewHolder.captionText.setText(images[position].getCaptionText());
+        String info = prizes.get(position).getCaptionText() + " (" +
+                prizes.get(position).getReleased() + ")";
+        viewHolder.captionText.setText(info);
 
         // Regular image loading using resources
-        //viewHolder.prizeImage.setImageResource(images[position].getResourceID());
+        //viewHolder.prizeImage.setImageResource(prizes[position].getResourceID());
 
         // Image loading using Glide
         Glide
                 .with(viewHolder.itemView.getContext())
-                .load(images[position].getImgSource())
+                .load(prizes.get(position).getImgSource())
                 .placeholder(R.drawable.tf_logo_main)
                    .crossFade()
                 .into(viewHolder.prizeImage);
@@ -56,7 +62,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.CustView
 
     @Override
     public int getItemCount() {
-        return images.length;
+        return prizes.size();
     }
 
 }

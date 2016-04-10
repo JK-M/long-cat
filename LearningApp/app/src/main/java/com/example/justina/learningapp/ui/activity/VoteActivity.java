@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.justina.learningapp.R;
-import com.example.justina.learningapp.data.database.DBHelper;
+import com.example.justina.learningapp.data.db.DBHelper;
 
 public class VoteActivity extends AppCompatActivity{
 

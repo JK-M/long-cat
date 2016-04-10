@@ -1,9 +1,9 @@
 package com.example.justina.learningapp.ui.fragment;
 
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +12,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.justina.learningapp.R;
+import com.snappydb.DB;
+import com.snappydb.DBFactory;
+import com.snappydb.SnappydbException;
 
 
 public class TopChartFragment extends Fragment implements MonthListFragment.OnMonthSelectedListener {
@@ -69,24 +72,17 @@ public class TopChartFragment extends Fragment implements MonthListFragment.OnMo
     public void onMonthSelected(int id, String value) {
         viewTopChartTitle.setText("TranceFix TOP10 of " + value);
 
-        Resources resources = getResources();
-        String[] tracks;
+        try {
 
-        switch (id) {
-            case 1:
-                tracks = resources.getStringArray(R.array.top10_jan);
-                break;
-            case 2:
-                tracks = resources.getStringArray(R.array.top10_feb);
-                break;
-            case 3:
-                tracks = resources.getStringArray(R.array.top10_mar);
-                break;
-            default:
-                tracks = resources.getStringArray(R.array.top10_apr);
+            DB chartsDB = DBFactory.open(getContext(), "charts");
+            String [] tracks = chartsDB.getObjectArray("mon" + id, String.class);
+            chartsDB.close();
+
+            adapter.clear();
+            adapter.addAll(tracks);
+
+        } catch (SnappydbException e) {
+            Log.d("TopChartFragment-1", "SnappyDB exception: " + e.getMessage());
         }
-
-        adapter.clear();
-        adapter.addAll(tracks);
     }
 }

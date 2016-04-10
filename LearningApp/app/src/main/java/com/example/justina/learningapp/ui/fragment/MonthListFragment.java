@@ -56,7 +56,7 @@ public class MonthListFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (onMonthSelectedListener != null) {
-                    onMonthSelectedListener.onMonthSelected(position, months.get(position));
+                    onMonthSelectedListener.onMonthSelected(position+1, months.get(position));
                 }
             }
         });

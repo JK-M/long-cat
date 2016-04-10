@@ -92,6 +92,38 @@
         <item>Allen Watts - Gravity</item>
     </string-array>
 
+    <string-array name="top10_may">
+        <item>No chart for May yet.</item>
+    </string-array>
+
+    <string-array name="top10_jun">
+        <item>No chart for June yet.</item>
+    </string-array>
+
+    <string-array name="top10_jul">
+        <item>No chart for July yet.</item>
+    </string-array>
+
+    <string-array name="top10_aug">
+        <item>No chart for August yet.</item>
+    </string-array>
+
+    <string-array name="top10_sep">
+        <item>No chart for September yet.</item>
+    </string-array>
+
+    <string-array name="top10_oct">
+        <item>No chart for October yet.</item>
+    </string-array>
+
+    <string-array name="top10_nov">
+        <item>No chart for November yet.</item>
+    </string-array>
+
+    <string-array name="top10_dec">
+        <item>No chart for December yet.</item>
+    </string-array>
+
     <!-- Contact screen -->
     <string name="contact_header">Contact Form</string>
 

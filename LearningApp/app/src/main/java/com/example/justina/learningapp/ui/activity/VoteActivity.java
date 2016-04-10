@@ -63,17 +63,6 @@ public class VoteActivity extends AppCompatActivity{
                 String fifthFav = fav5.getText().toString();
 
                 switch (action){
-                    case "INS":
-                        boolean insertSuccess =
-                                sqliteDb.insertData(firstFav, secondFav, thirdFav, fourthFav, fifthFav);
-
-                        if (insertSuccess) {
-                            Toast.makeText(VoteActivity.this, "Saved successfully!", Toast.LENGTH_SHORT).show();
-                        }
-                        else {
-                            Toast.makeText(VoteActivity.this, "Save failed.", Toast.LENGTH_SHORT).show();
-                        }
-
                     case "UPD":
                         boolean updateSuccess =
                                 sqliteDb.updateData(recID, firstFav, secondFav, thirdFav, fourthFav, fifthFav);
@@ -83,6 +72,20 @@ public class VoteActivity extends AppCompatActivity{
                         else{
                             Toast.makeText(VoteActivity.this, "Update failed.", Toast.LENGTH_SHORT).show();
                         }
+                        break;
+
+                    default:
+                        boolean insertSuccess =
+                                sqliteDb.insertData(firstFav, secondFav, thirdFav, fourthFav, fifthFav);
+
+                        if (insertSuccess) {
+                            Toast.makeText(VoteActivity.this, "Saved successfully!", Toast.LENGTH_SHORT).show();
+                        }
+                        else {
+                            Toast.makeText(VoteActivity.this, "Save failed.", Toast.LENGTH_SHORT).show();
+                        }
+                        break;
+
                 }
 
                 // Do not allow changes anymore

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.example.justina.learningapp.R;
 
 public class ContactActivity extends AppCompatActivity {
-
+    //test comment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
